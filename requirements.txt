@@ -1,0 +1,12 @@
+scapy>=2.5.0
+
+# Optional — SSL Strip / HSTS tab
+# mitmproxy>=10.0
+
+# System packages (Linux only — install via apt, not pip):
+#   apt install python3-tk          # tkinter GUI
+#   apt install hping3              # faster stress-test engine (fallback: Scapy)
+#   apt install samba-common-bin    # nmblookup — NetBIOS name resolution
+#   apt install nmap                # MAC vendor OUI prefix file
+#   apt install ethtool             # read hardware-burned-in MAC
+#   apt install iproute2            # tc bandwidth limiting + ip link MAC change

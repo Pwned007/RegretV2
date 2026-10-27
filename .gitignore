@@ -1,0 +1,12 @@
+# Captured credentials and traffic — never commit real target data
+*.pcap
+*.pcapng
+
+# Regret runtime data (credentials, sessions)
+.regret/
+
+# Misc
+*.log
+.DS_Store
+__pycache__/
+*.pyc
